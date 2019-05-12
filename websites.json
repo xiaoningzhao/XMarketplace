@@ -1,0 +1,49 @@
+[
+	{
+		"website"	: "X Consulting",
+		"url" 		: "xiaoningzhao.com",
+		"api" 		: {
+						"products"		:	"/api/products.php",
+						"product_info" 	: 	"/api/product_info.php",
+						"product_rating":   "/api/product_rating.php",
+						"product_review":	"/api/product_review.php",
+						"user_info"		:	"/api/user_info.php",
+						"product_visit"	:	"/api/product_visit.php",
+						"rating_summary":	"/api/rating_summary.php",
+						"add_review"	:	"/api/add_review.php",
+						"add_access_history":"/api/add_access_history.php"
+					  }
+	},
+
+	{
+		"website"	: "TimeFactory",
+		"url"		: "http://ec2-18-224-228-234.us-east-2.compute.amazonaws.com",
+		"api" 		: {
+						"products"		:	"/api/products.php",
+						"product_info" 	: 	"/api/product_info.php",
+						"product_rating":   "/api/product_rating.php",
+						"product_review":	"/api/product_review.php",
+						"user_info"		:	"/api/user_info.php",
+						"product_visit"	:	"/api/product_visit.php",
+						"rating_summary":	"/api/rating_summary.php",
+						"add_review"	:	"/api/add_review.php",
+						"add_access_history":"/api/add_access_history.php"
+					  }
+	},
+
+		{
+		"website"	: "EPIC HELI SKIING",
+		"url"		: "zhiyuanyao.net",
+		"api" 		: {
+						"products"		:	"/api/products.php",
+						"product_info" 	: 	"/api/product_info.php",
+						"product_rating":   "/api/product_rating.php",
+						"product_review":	"/api/product_review.php",
+						"user_info"		:	"/api/user_info.php",
+						"product_visit"	:	"/api/product_visit.php",
+						"rating_summary":	"/api/rating_summary.php",
+						"add_review"	:	"/api/add_review.php",
+						"add_access_history":"/api/add_access_history.php"
+					  }
+	}
+]
