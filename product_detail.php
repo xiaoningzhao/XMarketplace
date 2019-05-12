@@ -108,6 +108,8 @@
 		<link rel="stylesheet" href="assets/css/rating.css" />
 	</head>
 	<body class="no-sidebar is-preload">
+		<div id="fb-root"></div>
+		<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.3&appId=435060070580649&autoLogAppEvents=1"></script>
 		<div id="page-wrapper">
 			<section id="header">
 
@@ -128,8 +130,10 @@
 							<section id="content">
 								<img src=<?php echo "'$productImage'"; ?> width="60%" height="60%" alt="" />
 								<?php
-									echo "<h3>$productName</h3><p>Price: $productPrice</p><p>$productDescription</p>"
+									echo "<h3>$productName</h3><p>Price: $productPrice</p><p>$productDescription</p>";
+									$page_url =  'https://'.$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF'].'?'.$_SERVER['QUERY_STRING'];
 								?>
+								<div class="fb-share-button" data-href=<?php echo "\"".$page_url."\"" ?> data-layout="button_count" data-size="small"><a target="_blank" href=<?php echo "https://www.facebook.com/sharer/sharer.php?u=$page_url; src=sdkpreparse"?> class="fb-xfbml-parse-ignore">Share</a></div>
 							<hr>
 							<div class="col-6">
 								<h3>User Rating</h3>

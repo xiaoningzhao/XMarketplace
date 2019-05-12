@@ -1,5 +1,19 @@
 <?php
 	include_once('session.php');
+
+	require_once __DIR__ . '/Facebook/autoload.php';
+
+	$fb = new Facebook\Facebook([
+	  'app_id' => '435060070580649',
+	  'app_secret' => '9444061e16a010fb374cf03139e84cf0',
+	  'default_graph_version' => 'v3.3',
+	  ]);
+
+	$helper = $fb->getRedirectLoginHelper();
+
+	$permissions = ['email']; // Optional permissions
+	$loginUrl = $helper->getLoginUrl('https://zhiyuanyao.info/fb_callback.php', $permissions);
+
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -8,8 +22,10 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+</head>
 	</head>
 	<body class="no-sidebar is-preload">
+
 		<div id="page-wrapper">
 			
 			<section id="header">
@@ -49,7 +65,16 @@
 										</ul>
 									</div>
 								</form>
+								<div class="row aln-center gtr-0">
+									<div class="col-3"></div>
+									<div class="col-3 aln-center">
+										<a href='<?php echo htmlspecialchars($loginUrl); ?>' class="image featured"><img src="images/facebook-login-button.png" alt="" /></a>
+									</div>
+									<div class="col-3"></div>
+								</div>							
+							
 						</div>
+
 					</div>
 				</section>
 
