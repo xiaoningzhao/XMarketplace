@@ -34,7 +34,7 @@
 				if($session_login==true){
 					echo "<li><a href='#' class='button primary'>$session_name</a><ul><li><a href='user_profile.php'>Profile</a></li><li><a href='logout.php'>Sign Out</a></li></ul></li>";
 				}else{
-					echo "<li><a href='login.php' class='button primary'>Sign In</a></li>";
+					echo "<li><a href='login.php' class='button primary'>Sign In</a><ul><li><a href='signup.php'>Sign Up</a></li></ul></li>";
 				}
 			?>
 		</ul>

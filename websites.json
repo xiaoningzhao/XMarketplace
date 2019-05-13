@@ -11,7 +11,8 @@
 						"product_visit"	:	"/api/product_visit.php",
 						"rating_summary":	"/api/rating_summary.php",
 						"add_review"	:	"/api/add_review.php",
-						"add_access_history":"/api/add_access_history.php"
+						"add_access_history":"/api/add_access_history.php",
+						"add_user"		: 	"/api/add_user.php"
 					  }
 	},
 
@@ -27,11 +28,12 @@
 						"product_visit"	:	"/api/product_visit.php",
 						"rating_summary":	"/api/rating_summary.php",
 						"add_review"	:	"/api/add_review.php",
-						"add_access_history":"/api/add_access_history.php"
+						"add_access_history":"/api/add_access_history.php",
+						"add_user"		: 	"/api/add_user.php"
 					  }
 	},
 
-		{
+	{
 		"website"	: "EPIC HELI SKIING",
 		"url"		: "zhiyuanyao.net",
 		"api" 		: {
@@ -43,7 +45,25 @@
 						"product_visit"	:	"/api/product_visit.php",
 						"rating_summary":	"/api/rating_summary.php",
 						"add_review"	:	"/api/add_review.php",
-						"add_access_history":"/api/add_access_history.php"
+						"add_access_history":"/api/add_access_history.php",
+						"add_user"		: 	"/api/add_user.php"
+					  }
+	},
+
+	{
+		"website"	: "PUPPY N BABY",
+		"url"		: "xinyun272.com",
+		"api" 		: {
+						"products"		:	"/api/products.php",
+						"product_info" 	: 	"/api/product_info.php",
+						"product_rating":   "/api/product_rating.php",
+						"product_review":	"/api/product_review.php",
+						"user_info"		:	"/api/user_info.php",
+						"product_visit"	:	"/api/product_visit.php",
+						"rating_summary":	"/api/rating_summary.php",
+						"add_review"	:	"/api/add_review.php",
+						"add_access_history":"/api/add_access_history.php",
+						"add_user"		: 	"/api/add_user.php"
 					  }
 	}
 ]

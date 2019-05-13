@@ -280,4 +280,11 @@ function addAccessHistory($websiteName, $history=array()){
 	return sendGETRequest($url, $history);
 }
 
+function addUser($websiteName, $user = array()){
+	$url = getApiUrl($websiteName, "add_user");
+
+	return sendPOSTRequest($url, $user);
+
+}
+
 ?>

@@ -31,9 +31,10 @@
 							<section id="content">
 								<!--<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>-->
 								<h3>
-									<li><a href="http://xiaoningzhao.com">XConsulting</a></li>
+									<li><a href="https://xiaoningzhao.com">X Consulting</a></li>
 									<li><a href="http://ec2-18-224-228-234.us-east-2.compute.amazonaws.com">TimeFactory</a></li>
 									<li><a href="http://zhiyuanyao.net">EPIC HELI SKIING</a></li>
+									<li><a href="http://xinyun272.com">PUPPY N BABY</a></li>
 								</h3>
 
 							</section>
